@@ -1,13 +1,15 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 
 const PropertyPage = () => {
   const router = useRouter();
+  const params = useParams();
 
   return (
     <div>
-      <button onClick={() => router.replace("/")}>Go Home</button>
+      <h2>Property Page {params.id}</h2>
+      {/* <button onClick={() => router.replace("/")}>Go Home</button> */}
     </div>
   );
 };
