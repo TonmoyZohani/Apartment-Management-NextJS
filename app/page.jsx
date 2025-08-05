@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <div>
       <h1 className="text-3xl">Welcome</h1>
-      <Link href="/properties">Properties</Link>
+      <Link href="/properties?name=test">Properties</Link>
     </div>
   );
 }
