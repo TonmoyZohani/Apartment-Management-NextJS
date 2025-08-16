@@ -8,12 +8,12 @@ const override = {
 
 const LoadingPage = () => {
   return (
-    // <ClipLoader
-    //   color='#3b82f6'
-    //   cssOverride={override}
-    //   size={150}
-    //   aria-label='Loading Spinner'
-    // />
+    <ClipLoader
+      color='#3b82f6'
+      cssOverride={override}
+      size={150}
+      aria-label='Loading Spinner'
+    />
   );
 };
 export default LoadingPage;
