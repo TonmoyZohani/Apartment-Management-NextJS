@@ -11,7 +11,7 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* <Hero /> */}
+      <Hero />
       <InfoBoxes />
       <HomeProperties />
       <Footer />
