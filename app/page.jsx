@@ -5,7 +5,7 @@ import HomeProperties from "../components/HomeProperties";
 import connectDB from "../config/database";
 
 export default function HomePage() {
-  // console.log(process.env.MONGODB_URI);
+  console.log(process.env.MONGODB_URI);
 
   connectDB();
 
