@@ -13,7 +13,7 @@ export default function HomePage() {
     <div>
       <Hero />
       <InfoBoxes />
-      <HomeProperties />
+      {/* <HomeProperties /> */}
       <Footer />
     </div>
   );
